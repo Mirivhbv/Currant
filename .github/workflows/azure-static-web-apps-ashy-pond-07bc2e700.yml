@@ -19,9 +19,11 @@ jobs:
         with:
           submodules: true
       - name: Set up Ruby
-        uses: ruby/setup-ruby@ec106b438a1ff6ff109590de34ddc62c540232e0
+        uses: ruby/setup-ruby@23b2b5e5f16f1ca741a3d523fccc5a0a548ab8e2
         with:
           ruby-version: 2.6
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
       - name: Install dependencies
         run: bundle install
       - name: Jekyll build
