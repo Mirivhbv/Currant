@@ -1,14 +1,14 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Currant blog
+email: miri@vhbv.net
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/example" # the subpath of your site, e.g. /blog/
-url: "http://jekyll.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+  A boring blog with useless functionality and finitive blog posts,
+  it is the place you will want to leave within 3 minutes, and will
+  leave within 1 minute. So, time is on, good luck ;-)
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ashy-pond-07bc2e700.azurestaticapps.net/" # the base hostname & protocol for your site
+twitter_username: mirivhbv
+github_username:  mirivhbv
 
 # Build settings
 markdown: kramdown
