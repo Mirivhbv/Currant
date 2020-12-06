@@ -11,7 +11,7 @@ title: Archive
     <div class="row listrecent">
         {% for post in site.posts %}
         {% if post.categories contains page.category or post.category == page.category %}
-        {% include postbox.html %}
+            {% include postbox.html %}
         {% endif %}
 
         {% endfor %}
