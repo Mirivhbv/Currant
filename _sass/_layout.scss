@@ -233,4 +233,14 @@
             font-size: 18px;
         }
     }
+
+    iframe {
+        height: 400px;
+        width: 100%;
+
+        @include media-query($on-palm) {
+            height: 250px;
+            width: 100%;
+        }
+    }
 }
