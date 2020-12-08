@@ -2,7 +2,7 @@
 title: Currant blog
 email: miri@vhbv.net
 description: > # this means to ignore newlines until "baseurl:"
-  A boring blog with useless functionality and finitive blog posts,
+  A boring blog with useless functionality and finite blog posts,
   it is the place you will want to leave within 3 minutes, and will
   leave within 1 minute. So, time is on, good luck ;-)
 baseurl: "" # the subpath of your site, e.g. /blog/
