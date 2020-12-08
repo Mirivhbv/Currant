@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   it is the place you will want to leave within 3 minutes, and will
   leave within 1 minute. So, time is on, good luck ;-)
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://ashy-pond-07bc2e700.azurestaticapps.net/" # the base hostname & protocol for your site
+url: "https://zealous-hill-0a7463803.azurestaticapps.net/" # the base hostname & protocol for your site
 twitter_username: mirivhbv
 github_username:  mirivhbv
 
