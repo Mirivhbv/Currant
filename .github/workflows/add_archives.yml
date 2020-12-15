@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          persist-credentials: false # https://github.community/t/push-from-action-even-with-pat-does-not-trigger-action/17622/5
 
       - name: Jekyll Blog Archive
         uses: kannansuresh/jekyll-blog-archive-workflow@v1.0.3
