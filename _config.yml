@@ -17,17 +17,13 @@ plugins:
 markdown: kramdown
 permalink: /:year/:title:output_ext
 
-# collections:
-#   archives:
-#     output: true
-#     permalink: /archives/:path/
-
 jekyll-archives:
-  enabled: all
+  enabled:
+    - year
+    - tags
+    - categories
   layout: archive
   permalinks:
     year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
