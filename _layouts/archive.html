@@ -1,9 +1,17 @@
-<h1>Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
-<ul class="posts">
+---
+layout: default
+---
+<h1 class="page-heading">Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
+<ul class="post-list">
   {% for post in page.posts %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
+  <li>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <div>
+      {{ post.excerpt | strip_html | truncatewords: 35 }}
+    </div>
+  </li>
   {% endfor %}
 </ul>
