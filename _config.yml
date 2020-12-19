@@ -15,7 +15,7 @@ plugins:
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:title:output_ext
+permalink: /:year/:title/
 
 jekyll-archives:
   enabled:
