@@ -11,7 +11,8 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-<iframe  src="https://www.youtube.com/embed/JXVnFQVAAk4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!--  -->
+{% include video.html id="JXVnFQVAAk4" %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
