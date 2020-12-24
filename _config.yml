@@ -12,6 +12,7 @@ github_username:  mirivhbv
 
 plugins:
   - jekyll-archives
+  - jekyll-language-plugin
 
 # Build settings
 markdown: kramdown
