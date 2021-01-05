@@ -12,6 +12,7 @@ github_username:  mirivhbv
 
 plugins:
   - jekyll-archives
+  - jekyll-multiple-languages-plugin
 
 # Build settings
 markdown: kramdown
@@ -27,3 +28,8 @@ jekyll-archives:
     year: '/:year/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+
+languages: ["en", "ru"]
+# exclude_from_localizations: ["javascript", "images", "css"] # to avoid redundancy
+# default_locale_in_subfolder: true
+
