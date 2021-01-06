@@ -1,0 +1,7 @@
+main:
+  subscribe: подписываться
+  posts: Посты
+archive:
+  archive_main: Архив посты от
+titles:
+  about: "Обо мне"

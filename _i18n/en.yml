@@ -1,0 +1,7 @@
+main:
+  subscribe: subscribe
+  posts: Posts
+archive:
+  archive_main: Archive of posts with
+titles:
+  about: "About"
