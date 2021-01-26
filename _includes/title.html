@@ -1,0 +1,11 @@
+{% if page.layout == 'page' %}
+<title>{% if page.title %}{% t page.title %}{% else %}{{ site.title }}{% endif %}</title>
+{% elsif page.layout == 'autopage_category' %}
+{% assign sub_archive_title = page.pagination.category %}
+<title>{% if page.title %}{% t page.title %}{{ sub_archive_title }}{% else %}{{ site.title }}{% endif %}</title>
+{% elsif page.layout == 'autopage_tags' %}
+{% assign sub_archive_title = page.pagination.tag %}
+<title>{% if page.title %}{% t page.title %}{{ sub_archive_title }}{% else %}{{ site.title }}{% endif %}</title>
+{% else %}
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+{% endif %}

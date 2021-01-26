@@ -1,0 +1,24 @@
+<div class="home">
+
+    <!-- <h1 class="page-heading">{% t main.posts %}</h1> -->
+  
+    <ul class="post-list">
+      {% for post in paginator.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <div>
+            {{ post.excerpt | strip_html | truncatewords: 35 }}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  
+    <p class="rss-subscribe">{% t main.subscribe %} <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    {% include pagination.html %}
+    
+  </div>
+  

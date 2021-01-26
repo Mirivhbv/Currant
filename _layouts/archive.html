@@ -2,9 +2,9 @@
 layout: default
 ---
 {% if page.type == 'year' %}
-<h1 class="page-heading">Archive of posts from {{ page.date | date: "%Y" }}</h1>
+<h1 class="page-heading">{% t archive.archive_main %} {{ page.date | date: "%Y" }}</h1>
 {% else %}
-<h1 class="page-heading">Archive of posts with {{ page.type }} '{{ page.title }}'</h1>
+<h1 class="page-heading">{% t archive.archive_main %} {{ page.type }} '{{ page.title }}'</h1>
 {% endif %}
 <ul class="post-list">
   {% for post in page.posts %}
@@ -13,9 +13,6 @@ layout: default
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
-    <div>
-      {{ post.excerpt | strip_html | truncatewords: 35 }}
-    </div>
   </li>
   {% endfor %}
 </ul>

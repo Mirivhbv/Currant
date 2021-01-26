@@ -1,0 +1,15 @@
+main:
+  subscribe: подписываться
+  posts: Посты
+archive:
+  archive_main: Архив посты от
+  posts_with_category: Посты с категорией
+  posts_with_tag: Посты с тегом
+  page: страница
+titles:
+  about: "Обо мне"
+  category-archive: "Посты в категории "
+  tag-archive: "Посты с тегами "
+pagination:
+  previous: "Предыдущий"
+  next: "Следующий"
