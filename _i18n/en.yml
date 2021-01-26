@@ -3,5 +3,13 @@ main:
   posts: Posts
 archive:
   archive_main: Archive of posts with
+  posts_with_category: Posts with category
+  posts_with_tag: Posts with tag
+  page: page
 titles:
   about: "About"
+  category-archive: "Posts in category "
+  tag-archive: "Posts tagged with "
+pagination:
+  previous: "Previous"
+  next: "Next"

@@ -13,6 +13,7 @@ github_username:  mirivhbv
 plugins:
   - jekyll-archives
   - jekyll-multiple-languages-plugin
+  - jekyll-paginate-v2
 
 # Build settings
 markdown: kramdown
@@ -24,10 +25,24 @@ jekyll-archives:
     - tags
     - categories
   layout: archive
-  permalinks:
-    year: '/:year/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+  # permalinks:
+  #   year: '/:year/'
+  #   tag: '/tag/:name/'
+  #   category: '/category/:name/'
+
+pagination:
+  enabled: true
+  per_page: 2 # for testing
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories:
+    title: 'titles.category-archive'
+  tags:
+    title: 'titles.tag-archive'
 
 languages: ["en", "ru"]
 # exclude_from_localizations: ["javascript", "images", "css"] # to avoid redundancy

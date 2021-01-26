@@ -1,0 +1,5 @@
+---
+layout: default
+---
+<h3>{% t archive.posts_with_tag %} <b>{% if page.autopages %}{{page.autopages.display_name | capitalize }}{% endif %}</b> {% t archive.page %} {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</h3>
+{% include posts.html %}
