@@ -1,5 +1,5 @@
 <ul class="archive">
-    <li><strong>Categories:</strong></li>
+    <li><strong>{% t archive.categories %}:</strong></li>
     {% for category in site.categories %}
         {% assign category_name = category[0] | downcase | replace '-', ' ' %}
         <li class="archive__item"><a href="{{ site.baseurl }}/category/{{ category[0] }}/" title="{{ category_name }}">{{ category_name }}</a></li>

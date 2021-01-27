@@ -6,6 +6,8 @@ archive:
   posts_with_category: Посты с категорией
   posts_with_tag: Посты с тегом
   page: страница
+  tags: Теги
+  categories: Категории
 titles:
   about: "Обо мне"
   category-archive: "Посты в категории "

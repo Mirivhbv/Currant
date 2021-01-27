@@ -6,6 +6,8 @@ archive:
   posts_with_category: Posts with category
   posts_with_tag: Posts with tag
   page: page
+  tags: Tags
+  categories: Categories
 titles:
   about: "About"
   category-archive: "Posts in category "
