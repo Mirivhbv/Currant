@@ -1,0 +1,13 @@
+.archive {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    font-size: 17.5px;
+    color: #828282;
+
+    &__item, &__label {
+        display: inline-block;
+        margin-right: .75rem;
+    }
+}
