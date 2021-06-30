@@ -1,5 +1,13 @@
 ---
+site:
+  title: Блог Currant
 index:
   posts: Посты
   subscribe: подписаться
   via_rss: через RSS
+  title: Главная
+about:
+  title: Обо мне
+  name: Hello
+archive:
+  title: shuka

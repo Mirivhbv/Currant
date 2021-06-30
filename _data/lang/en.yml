@@ -1,5 +1,17 @@
 ---
+site:
+  title: Currant blog
 index:
   posts: Posts
   subscribe: subscribe
   via_rss: via RSS
+  title: Home
+about:
+  title: About me
+  name: Salam
+default:
+  title: site
+page:
+  title: site
+archive:
+  title: suka

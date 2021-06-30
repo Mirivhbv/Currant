@@ -18,6 +18,9 @@ plugins:
 markdown: kramdown
 permalink: /:year/:title/
 
+# it will be used by template, not by plugin
+languages: ['en', 'ru']
+
 language_data: data.lang.%%
 language_includes_dir: _i18n
 
